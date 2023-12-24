@@ -32,7 +32,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/demonlob/Hydro",
+    "https://github.com/demonlob/Hydrogram",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "hydrogram")
 GIT_TOKEN = getenv(
